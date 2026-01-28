@@ -4,7 +4,7 @@
 
 ### Frontend Developer | React & Next.js Specialist
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-imranumar.dev-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hassanumar-lhe-pk.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-imranumar.dev-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://imranumar-lhe-pk.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imran-umar-lhe/)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:imranumar.lhe@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/imranumar-lhe)
@@ -34,10 +34,10 @@ const imran = {
 
 ## 💼 What I Do
 
-- ⚛️ Frontend Development with React & Next.js  
-- 🎨 UI Implementation (Figma to Code)  
-- 🔌 REST API Integration  
-- 🐞 UI Debugging & Cross-browser fixes  
+- ⚛️ Frontend Development with React & Next.js
+- 🎨 UI Implementation (Figma to Code)
+- 🔌 REST API Integration
+- 🐞 UI Debugging & Cross-browser fixes
 
 ---
 
@@ -45,7 +45,7 @@ const imran = {
 
 **Frontend:** React.js, Next.js, JavaScript (ES6+), TypeScript  
 **Styling:** Tailwind CSS, Material UI, Ant Design  
-**Tools:** Git, GitHub, Postman, Chrome DevTools  
+**Tools:** Git, GitHub, Postman, Chrome DevTools
 
 ---
 
@@ -54,11 +54,12 @@ const imran = {
 ### 🚀 Falcon – DMC Connect Platform (NDA Protected)
 
 **Role:** Frontend Developer  
-**Type:** Live Production B2B System  
+**Type:** Live Production B2B System
 
 Enterprise travel platform connecting Supplier DMCs, Master OTAs, and Slave OTAs.
 
 **Contributions:**
+
 - Production-ready UI with React & Next.js
 - REST API integration
 - Tailwind, MUI & Ant Design styling
@@ -77,16 +78,14 @@ Lahore Leads University (2021 – 2025)
 
 ## 📫 Let’s Connect
 
-- 🌐 Portfolio: https://hassanumar-lhe-pk.vercel.app  
-- 💼 LinkedIn: https://www.linkedin.com/in/imran-umar-lhe/  
-- 📧 Email: imranumar.lhe@gmail.com  
+- 🌐 Portfolio: https://imranumar-lhe-pk.vercel.app/
+- 💼 LinkedIn: https://www.linkedin.com/in/imran-umar-lhe/
+- 📧 Email: imranumar.lhe@gmail.com
 
 ---
 
 <div align="center">
 
 **Clean UI. Clear logic. Production mindset.**
-
-![Profile Views](https://komarev.com/ghpvc/?username=imranumar-lhe&color=667EEA&style=for-the-badge)
 
 </div>
