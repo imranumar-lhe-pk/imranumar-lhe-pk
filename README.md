@@ -49,33 +49,6 @@ const imran = {
 
 ---
 
-## 🌟 Featured Project
-
-### 🚀 Falcon – DMC Connect Platform (NDA Protected)
-
-**Role:** Frontend Developer  
-**Type:** Live Production B2B System
-
-Enterprise travel platform connecting Supplier DMCs, Master OTAs, and Slave OTAs.
-
-**Contributions:**
-
-- Production-ready UI with React & Next.js
-- REST API integration
-- Tailwind, MUI & Ant Design styling
-- Cross-browser UI fixes
-
-**Tech:** React.js · Next.js · TypeScript · Tailwind CSS · MUI · REST APIs
-
----
-
-## 🎓 Education
-
-**BS Computer Science**  
-Lahore Leads University (2021 – 2025)
-
----
-
 ## 📫 Let’s Connect
 
 - 🌐 Portfolio: https://imranumar-lhe-pk.vercel.app/
