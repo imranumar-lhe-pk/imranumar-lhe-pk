@@ -70,6 +70,7 @@ const Resume = () => {
                 <li>• Integrated REST APIs</li>
                 <li>• Fixed cross-browser UI bugs</li>
                 <li>• Production modules for B2B travel system</li>
+                <li>• Java backend & config work on a healthcare AI platform</li>
               </ul>
 
               <div className="flex-grow"></div>
@@ -80,6 +81,7 @@ const Resume = () => {
                   "Next.js",
                   "JavaScript",
                   "TypeScript",
+                  "Java",
                   "Tailwind",
                   "Material UI",
                   "Ant Design",
