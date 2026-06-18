@@ -48,7 +48,7 @@ const FalconCaseStudy = () => {
       <section className="mb-10">
         <h2 className="text-2xl font-bold mb-3">Tech Stack</h2>
         <p className="text-gray-600">
-          <strong>Frontend:</strong> React.js, REST APIs
+          <strong>Frontend:</strong> Next.js, React.js, REST APIs
           <br />
           <strong>Backend:</strong> Node.js Microservices
           <br />

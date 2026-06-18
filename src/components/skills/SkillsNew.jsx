@@ -64,6 +64,11 @@ const Skills = ({ darkMode }) => {
       color: "from-blue-500 to-indigo-600",
     },
     {
+      name: "Java",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      color: "from-red-500 to-orange-500",
+    },
+    {
       name: "Git",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       color: "from-orange-500 to-red-600",
@@ -174,6 +179,16 @@ const Skills = ({ darkMode }) => {
                   }
                   name="Ant Design"
                   value={75}
+                />
+                <ProgressBar
+                  logoNode={
+                    <TechIcon
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                      gradient="from-red-500 to-orange-500"
+                    />
+                  }
+                  name="Java"
+                  value={30}
                 />
               </div>
             </div>
