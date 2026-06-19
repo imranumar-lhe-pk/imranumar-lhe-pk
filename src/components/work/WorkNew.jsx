@@ -11,115 +11,116 @@ import FalconCaseStudy from "./FalconCaseStudy";
 const projects = [
   {
     id: "wizvend",
-    title: "WizVend",
+    title: "WizVend — Multilingual Website and Custom CMS",
     monogram: "W",
     img: shotWizvend,
-    subtitle: "Amazon Growth Agency — Built From Scratch",
+    subtitle: "Amazon Growth Agency Platform",
     accent: "from-amber-500 to-orange-600",
     soft: "from-amber-50 to-orange-50",
     role: "Full-Stack Developer",
     type: "Live Production Website",
     link: "https://wizvend.com/en",
     featured: true,
-    tags: ["Next.js", "Tailwind", "SEO", "i18n"],
-    desc: `A full-service Amazon growth agency platform I designed and built end
-    to end — service pages, case studies, multi-language routing, and
-    conversion-focused, fully responsive UI.`,
-    overview: `An end-to-end marketing website for an Amazon e-commerce growth
-    agency, built entirely from scratch — from UI/UX and component architecture
-    to multi-language support and deployment.`,
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "i18n", "SEO", "REST APIs"],
+    desc: `Designed and developed a multilingual marketing website and custom CMS
+    for an Amazon growth agency. The platform supports English and German
+    content, SEO-friendly routing, responsive pages and admin-controlled blogs,
+    resources, FAQs, hero content and lead management.`,
+    overview: `This project includes both the public marketing website and a
+    custom admin dashboard/CMS. The CMS lets non-technical staff manage hero
+    content, blogs, resources, service FAQs, gated downloads and leads, with
+    SEO-friendly internationalized (English/German) routing and a responsive UI.`,
     contributions: [
-      "Designed and developed the entire website from scratch",
-      "Built a reusable, responsive component library",
-      "Implemented multi-language (EN) routing and content structure",
-      "Service pages, case-study sections, and lead-capture flows",
-      "Performance, SEO, and cross-browser optimization",
-      "Deployment and production maintenance",
+      "Developed the multilingual public marketing website (English & German)",
+      "Built a custom admin dashboard / CMS for hero content, blogs, resources and FAQs",
+      "Implemented SEO-friendly internationalized (i18n) routing",
+      "Created custom form APIs and lead-management flows",
+      "Built reusable, responsive components across the site",
     ],
-    tech: "Next.js, Tailwind CSS, Responsive UI, SEO",
+    tech: "Next.js, TypeScript, Tailwind CSS, i18n, SEO, REST APIs",
     impact: [
-      "Single-handedly delivered a production marketing site",
-      "Clean, conversion-oriented UX for an agency funnel",
-      "Scalable component structure for future service pages",
+      "Enabled non-technical staff to manage site content through the CMS",
+      "SEO-friendly, country-specific multilingual content",
+      "Responsive, production-ready marketing experience",
     ],
   },
   {
     id: "basata",
-    title: "Basata",
+    title: "Basata — AI Healthcare Operations Platform",
     monogram: "B",
     img: shotBasata,
     subtitle: "AI-Powered Healthcare Operations Platform",
     accent: "from-teal-500 to-emerald-600",
     soft: "from-teal-50 to-emerald-50",
-    role: "Junior Developer — Java, Frontend & Config",
+    role: "Frontend Developer with minor Java contributions",
     type: "Live Production SaaS",
     link: "https://www.basata.ai/",
-    tags: ["React.js", "Java", "Config", "REST APIs"],
-    desc: `An AI platform that automates healthcare back-office work — referrals,
-    call triage, and EHR-integrated workflows. I contributed across the Java
-    backend, the frontend, and system configuration.`,
-    overview: `A healthcare operations SaaS that uses AI agents to automate
-    referrals, faxes, and patient call handling, integrating directly with
-    existing EHR systems. I worked across the stack as a junior developer.`,
+    tags: ["React.js", "Tailwind CSS", "REST APIs", "Java — Basic"],
+    desc: `An AI-powered healthcare operations platform that automates referrals,
+    faxes, call workflows and EHR-integrated administrative processes. My
+    contribution was primarily frontend development, with limited Java backend
+    and system configuration support.`,
+    overview: `An AI-powered platform that automates healthcare back-office work —
+    referrals, faxes, call-centre workflows and EHR-integrated processes. I
+    contributed primarily to frontend development, with a limited set of Java
+    backend and system-configuration tasks.`,
     contributions: [
-      "Implemented and maintained Java backend logic",
-      "Built and refined frontend UI components",
-      "Authored and managed system / workflow configuration",
-      "Integrated backend services with the frontend",
+      "Contributed primarily to frontend UI development",
+      "Integrated responsive UI modules with backend services",
+      "Supported a limited set of Java backend configuration and integration tasks",
       "Bug fixing and feature support in a production codebase",
     ],
-    tech: "Java, React.js, Configuration-driven workflows, REST APIs",
+    tech: "React.js, Tailwind CSS, REST APIs, Java (Basic), System Configuration",
     impact: [
       "Contributed to a live, production healthcare platform",
-      "Supported config-driven automation features",
-      "Hands-on full-stack exposure as a junior developer",
+      "Helped deliver responsive frontend workflows",
     ],
   },
   {
     id: "aetherbot",
-    title: "AetherBot",
+    title: "AetherBot — AI Assistant Platform",
     monogram: "A",
     img: shotAetherbot,
-    subtitle: "AI Assistant, Consultancy & Development",
+    subtitle: "AI Assistant SaaS & Embeddable Widget",
     accent: "from-indigo-500 to-fuchsia-600",
     soft: "from-indigo-50 to-fuchsia-50",
     role: "Frontend Developer",
     type: "Live Production Website",
     link: "https://www.aetherbot.dev/",
-    tags: ["React.js", "Tailwind"],
-    desc: `An AI-focused platform offering AI assistant services, technical
-    consultancy, and custom development. I owned the frontend implementation and
-    client-facing experience.`,
-    overview: `A product/services site for an AI company combining automated AI
-    assistance with human consulting and development. I owned the frontend
-    implementation.`,
+    tags: ["React.js", "Tailwind CSS", "REST APIs", "Responsive UI"],
+    desc: `An AI assistant SaaS platform offering multilingual, 24/7 customer
+    support. I contributed to the responsive frontend interface and helped
+    develop the embeddable AI assistant widget used on client websites.`,
+    overview: `A SaaS AI assistant platform providing multilingual, around-the-clock
+    customer support. I contributed to the frontend implementation and helped
+    develop the embeddable widget used on client websites.`,
     contributions: [
-      "Developed responsive frontend UI from designs",
-      "Built reusable components and page layouts",
-      "Integrated frontend with backend / API services",
+      "Contributed to the responsive frontend interface",
+      "Helped develop the embeddable AI assistant widget",
+      "Implemented API-driven content and multilingual support UI",
       "Cross-browser fixes and UI polish",
     ],
-    tech: "React.js, Tailwind CSS, Responsive UI",
+    tech: "React.js, Tailwind CSS, REST APIs, Responsive Web Design",
     impact: [
-      "Delivered a clean, modern client-facing interface",
-      "Reusable component structure for the product site",
+      "Helped deliver a multilingual 24/7 support experience",
+      "Contributed reusable frontend components and the embeddable widget",
     ],
   },
   {
     id: "falcon",
-    title: "Falcon",
+    title: "Falcon — Enterprise B2B Travel Platform",
     monogram: "F",
     subtitle: "Enterprise B2B Travel Management Platform",
     img: falconLogin,
     accent: "from-blue-600 to-purple-600",
     soft: "from-blue-50 to-purple-50",
-    role: "Frontend Developer (Next.js & React.js)",
+    role: "Frontend Developer",
     type: "Restricted Production System",
     nda: true,
-    tags: ["Next.js", "React.js", "REST APIs", "RBAC", "Multi-tenant"],
-    desc: `A multi-tier enterprise travel platform connecting DMCs, Master OTAs,
-    and Slave OTAs into one ecosystem — real-time inventory, bookings, wallet,
-    accounting, and reporting across multiple roles.`,
+    tags: ["Next.js", "React.js", "TypeScript", "REST APIs", "RBAC", "Multi-tenant UI"],
+    desc: `A multi-tier B2B travel management platform connecting DMCs, Master
+    OTAs and Slave OTAs. I built frontend modules for inventory, bookings,
+    wallets and role-based workflows using React.js, Next.js and REST APIs.`,
   },
 ];
 

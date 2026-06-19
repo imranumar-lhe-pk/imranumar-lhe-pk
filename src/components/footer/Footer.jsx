@@ -14,7 +14,7 @@ const Footer = () => {
           <a
             data-aos="fade-up"
             data-aos-duration="1000"
-            href="mailto:hassanumar.lhe.pk@gmail.com?subject=Contact For Hiring"
+            href="mailto:imranumar.lhe@gmail.com?subject=Contact For Hiring"
             className="box font-medium text-white   flex items-center justify-center flex-col"
           >
             <MdEmail className=" text-black text-3xl hover:scale-125 cursor-pointer" />
@@ -23,7 +23,7 @@ const Footer = () => {
           <a
             data-aos="fade-up"
             data-aos-duration="1400"
-            href="https://www.linkedin.com/in/hassan-umar-lhe-pk/"
+            href="https://www.linkedin.com/in/imran-umar-lhe/"
             target="_blank"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >

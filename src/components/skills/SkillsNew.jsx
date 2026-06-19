@@ -1,32 +1,37 @@
 import React from "react";
-import ProgressBar from "../../chip/ProgressBar";
-import { FaMobileAlt } from "react-icons/fa";
-import { LuDatabase } from "react-icons/lu";
-import { CiGlobe } from "react-icons/ci";
-import { FiServer } from "react-icons/fi";
 import muiIcon from "../../assets/icon.svg";
 import antDesignIcon from "../../assets/ant-design.svg";
 
-import { FaRegFileCode } from "react-icons/fa6";
-/* Reusable Tech Icon */
-const TechIcon = ({ src, gradient }) => (
-  <div
-    className={`w-9 h-9 rounded-lg bg-gradient-to-br ${gradient} p-[2px] shadow-md`}
-  >
-    <div className="w-full h-full bg-white rounded-md flex items-center justify-center">
-      <img
-        src={src}
-        alt=""
-        className="w-5 h-5 object-contain"
-        loading="lazy"
-        referrerPolicy="no-referrer"
-        crossOrigin="anonymous"
-      />
-    </div>
-  </div>
-);
-
 const Skills = ({ darkMode }) => {
+  // Categorized skills (priority order, no arbitrary percentages)
+  const skillGroups = [
+    {
+      title: "Core Frontend",
+      color: "from-blue-600 to-cyan-500",
+      items: ["React.js", "Next.js", "JavaScript (ES6+)", "TypeScript"],
+    },
+    {
+      title: "UI & Styling",
+      color: "from-purple-600 to-pink-500",
+      items: ["Tailwind CSS", "Material UI", "Ant Design", "Responsive Design"],
+    },
+    {
+      title: "Integration & Workflow",
+      color: "from-emerald-600 to-teal-500",
+      items: ["REST APIs", "Git", "GitHub", "Postman", "Chrome DevTools"],
+    },
+    {
+      title: "Collaboration Tools",
+      color: "from-orange-500 to-amber-500",
+      items: ["ClickUp", "Linear", "Slack", "Figma"],
+    },
+    {
+      title: "Basic Exposure",
+      color: "from-gray-500 to-gray-700",
+      items: ["Java"],
+    },
+  ];
+
   const techStack = [
     {
       name: "React Js",
@@ -39,14 +44,14 @@ const Skills = ({ darkMode }) => {
       color: "from-gray-700 to-gray-900",
     },
     {
-      name: "JavaScript",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-      color: "from-yellow-400 to-yellow-500",
-    },
-    {
       name: "TypeScript",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       color: "from-blue-500 to-blue-600",
+    },
+    {
+      name: "JavaScript",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      color: "from-yellow-400 to-yellow-500",
     },
     {
       name: "Tailwind CSS",
@@ -64,14 +69,14 @@ const Skills = ({ darkMode }) => {
       color: "from-blue-500 to-indigo-600",
     },
     {
-      name: "Java",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-      color: "from-red-500 to-orange-500",
-    },
-    {
       name: "Git",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       color: "from-orange-500 to-red-600",
+    },
+    {
+      name: "Java",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      color: "from-red-500 to-orange-500",
     },
   ];
 
@@ -90,106 +95,42 @@ const Skills = ({ darkMode }) => {
             </span>
           </h2>
           <p className="text-base sm:text-lg lg:text-xl xl:text-2xl text-gray-600 max-w-3xl mx-auto px-4 leading-relaxed">
-            Specialized in building scalable applications with modern
-            technologies
+            Specialized in building scalable, production-ready interfaces with
+            modern frontend technologies
           </p>
         </div>
 
         {/* Main Skills Grid */}
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 xl:gap-20 mb-12 sm:mb-16 lg:mb-20">
-          {/* Core Skills with Progress Bars */}
+          {/* Categorized Skills */}
           <div data-aos="fade-right" className="space-y-6">
-            <div className="bg-white rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-2xl border-2 border-gray-100 hover:border-blue-200 hover:shadow-3xl transition-all duration-300">
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                <span className="w-2 h-6 sm:h-8 bg-gradient-to-b from-blue-600 to-purple-600 rounded-full shadow-lg"></span>
-                Core Technologies
+            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+              <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-8 flex items-center gap-3">
+                <span className="w-1.5 h-6 sm:h-7 bg-slate-900 rounded-full"></span>
+                Technical Skills
               </h3>
-              <div className="space-y-6">
-                <ProgressBar
-                  logoNode={
-                    <TechIcon
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                      gradient="from-blue-400 to-cyan-500"
-                    />
-                  }
-                  name="React.js"
-                  value={80}
-                />
 
-                <ProgressBar
-                  logoNode={
-                    <TechIcon
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-                      gradient="from-gray-700 to-gray-900"
-                    />
-                  }
-                  name="Next.js"
-                  value={90}
-                />
-
-                <ProgressBar
-                  logoNode={
-                    <TechIcon
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                      gradient="from-yellow-400 to-yellow-500"
-                    />
-                  }
-                  name="JavaScript (ES6+)"
-                  value={85}
-                />
-
-                <ProgressBar
-                  logoNode={
-                    <TechIcon
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-                      gradient="from-blue-500 to-blue-600"
-                    />
-                  }
-                  name="TypeScript"
-                  value={80}
-                />
-
-                <ProgressBar
-                  logoNode={
-                    <TechIcon
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
-                      gradient="from-cyan-400 to-teal-500"
-                    />
-                  }
-                  name="Tailwind CSS"
-                  value={95}
-                />
-
-                <ProgressBar
-                  logoNode={
-                    <TechIcon
-                      src={muiIcon}
-                      gradient="from-cyan-400 to-teal-500"
-                    />
-                  }
-                  name="MUI"
-                  value={90}
-                />
-                <ProgressBar
-                  logoNode={
-                    <TechIcon
-                      src={antDesignIcon}
-                      gradient="from-blue-500 to-indigo-600"
-                    />
-                  }
-                  name="Ant Design"
-                  value={75}
-                />
-                <ProgressBar
-                  logoNode={
-                    <TechIcon
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-                      gradient="from-red-500 to-orange-500"
-                    />
-                  }
-                  name="Java"
-                  value={30}
-                />
+              <div className="space-y-7">
+                {skillGroups.map((group) => (
+                  <div
+                    key={group.title}
+                    className="grid sm:grid-cols-[140px_1fr] gap-2 sm:gap-4"
+                  >
+                    <h4 className="text-xs font-semibold uppercase tracking-wider text-slate-400 sm:pt-1.5">
+                      {group.title}
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {group.items.map((item) => (
+                        <span
+                          key={item}
+                          className="px-3 py-1.5 text-xs sm:text-sm font-medium text-slate-700 rounded-md bg-slate-50 border border-slate-200 hover:border-slate-300 transition-colors"
+                        >
+                          {item}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -212,15 +153,16 @@ const Skills = ({ darkMode }) => {
                         Frontend Development
                       </h4>
                       <p className="text-xs sm:text-sm text-gray-600">
-                        Building responsive, production-ready interfaces using{" "}
-                        {""}
+                        Building responsive, scalable and production-ready
+                        interfaces using{" "}
                         <span className="font-semibold text-gray-900">
-                          React
-                        </span>
-                        , & the{" "}
+                          React.js
+                        </span>{" "}
+                        and{" "}
                         <span className="font-semibold text-gray-900">
                           Next.js
                         </span>
+                        .
                       </p>
                     </div>
                   </div>
@@ -233,14 +175,15 @@ const Skills = ({ darkMode }) => {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-1 text-sm sm:text-base">
-                        UI Implementation{" "}
+                        UI Implementation
                       </h4>
                       <p className="text-xs sm:text-sm text-gray-600">
-                        Converting{" "}
+                        Turning{" "}
                         <span className="font-semibold text-gray-900">
-                          Figma/UI
+                          Figma
                         </span>{" "}
-                        designs into clean, reusable components{" "}
+                        and UI designs into clean, reusable and maintainable
+                        components.
                       </p>
                     </div>
                   </div>
@@ -253,10 +196,11 @@ const Skills = ({ darkMode }) => {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-1 text-sm sm:text-base">
-                        API Integration{" "}
+                        API Integration
                       </h4>
                       <p className="text-xs sm:text-sm text-gray-600">
-                        Integrating REST APIs and handling frontend data flows
+                        Integrating REST APIs and managing frontend data flows,
+                        loading states and error handling.
                       </p>
                     </div>
                   </div>
@@ -265,15 +209,15 @@ const Skills = ({ darkMode }) => {
                 <div className="group bg-white/90 backdrop-blur-sm rounded-lg sm:rounded-xl p-4 sm:p-5 hover:shadow-xl transition-all duration-300 border-2 border-white hover:border-orange-200 hover:-translate-y-1">
                   <div className="flex items-start gap-3 sm:gap-4">
                     <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform">
-                      <span className="text-lg sm:text-2xl"> 🧪</span>
+                      <span className="text-lg sm:text-2xl">🧪</span>
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-1 text-sm sm:text-base">
-                        UI Testing & Debugging
+                        Testing and Debugging
                       </h4>
                       <p className="text-xs sm:text-sm text-gray-600">
-                        Cross-browser testing, bug fixing, and UI performance
-                        improvements{" "}
+                        Improving cross-browser compatibility, fixing UI issues
+                        and optimizing frontend performance.
                       </p>
                     </div>
                   </div>

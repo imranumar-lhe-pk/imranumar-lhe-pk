@@ -5,7 +5,7 @@ const Resume = () => {
   const achievements = [
     { icon: "🧑‍💻", title: "1+ Year", desc: "Frontend experience" },
     { icon: "⚛️", title: "React & Next", desc: "Production apps" },
-    { icon: "🏢", title: "B2B Platform", desc: "Falcon System" },
+    { icon: "🚀", title: "4 Projects", desc: "Live & production" },
     { icon: "🎨", title: "Modern UI", desc: "Tailwind, MUI, AntD" },
   ];
 
@@ -65,12 +65,33 @@ const Resume = () => {
               </div>
 
               <ul className="space-y-2 text-gray-600 text-sm">
-                <li>• Built responsive UI using React & Next.js</li>
-                <li>• Styled with Tailwind, MUI & Ant Design</li>
-                <li>• Integrated REST APIs</li>
-                <li>• Fixed cross-browser UI bugs</li>
-                <li>• Production modules for B2B travel system</li>
-                <li>• Java backend & config work on a healthcare AI platform</li>
+                <li>
+                  • Build responsive, production-ready interfaces using
+                  React.js, Next.js, TypeScript, Tailwind CSS, Material UI and
+                  Ant Design.
+                </li>
+                <li>
+                  • Developed WizVend's multilingual marketing website and
+                  custom CMS for blogs, resources, FAQs, hero content and lead
+                  management.
+                </li>
+                <li>
+                  • Contributed primarily to the frontend of Basata's AI
+                  healthcare platform, with limited Java backend and
+                  configuration support.
+                </li>
+                <li>
+                  • Helped develop AetherBot's responsive web interface and
+                  embeddable AI assistant widget.
+                </li>
+                <li>
+                  • Built frontend modules for Falcon, including inventory,
+                  booking, wallet and role-based workflows.
+                </li>
+                <li>
+                  • Integrate REST APIs, build reusable components and improve
+                  responsiveness, cross-browser compatibility and UI reliability.
+                </li>
               </ul>
 
               <div className="flex-grow"></div>
@@ -79,12 +100,12 @@ const Resume = () => {
                 {[
                   "React.js",
                   "Next.js",
-                  "JavaScript",
                   "TypeScript",
-                  "Java",
+                  "JavaScript",
                   "Tailwind",
                   "Material UI",
                   "Ant Design",
+                  "Java",
                 ].map((s) => (
                   <span
                     key={s}
@@ -121,10 +142,10 @@ const Resume = () => {
               </div>
 
               <ul className="space-y-2 text-gray-600 text-sm">
-                <li>• Software engineering principles</li>
-                <li>• Web & mobile development</li>
-                <li>• Algorithms & data structures</li>
-                <li>• System design fundamentals</li>
+                <li>• Software Engineering</li>
+                <li>• Web Development</li>
+                <li>• Algorithms and Data Structures</li>
+                <li>• System Design Fundamentals</li>
               </ul>
 
               <div className="flex-grow"></div>

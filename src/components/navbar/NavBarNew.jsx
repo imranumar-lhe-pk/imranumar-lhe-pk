@@ -159,7 +159,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             {/* Mobile CTA Button */}
             <div className="mt-auto">
               <a
-                href="https://www.linkedin.com/in/hassan-umar-lhe-pk/"
+                href="https://www.linkedin.com/in/imran-umar-lhe/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full px-4 sm:px-6 py-4 sm:py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300 touch-manipulation active:scale-95"
@@ -173,7 +173,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               {/* Mobile Footer */}
               <div className="mt-6 pt-6 border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-600 text-center">
-                  © {new Date().getFullYear()} Hassan Umar
+                  © {new Date().getFullYear()} Imran Umar
                 </p>
               </div>
             </div>

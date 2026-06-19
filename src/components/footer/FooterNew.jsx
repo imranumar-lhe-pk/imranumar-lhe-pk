@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedinIn, FaHeart } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { HiArrowUp } from "react-icons/hi";
 
@@ -26,10 +26,10 @@ const Footer = () => {
           >
             <h3 className="text-xl sm:text-2xl font-black mb-4">Imran Umar</h3>
             <p className="text-gray-400 leading-relaxed text-sm sm:text-base">
-              Frontend Developer focused on building modern, scalable user
-              interfaces using React.js and Next.js. Experienced in Tailwind
-              CSS, Material UI, and Ant Design, with hands-on work on real-world
-              B2B production systems.
+              Frontend Developer focused on building responsive, scalable and
+              production-ready interfaces using React.js, Next.js and
+              TypeScript. Experienced in reusable UI development, REST API
+              integration and real-world SaaS and B2B platforms.
             </p>
             <div className="flex gap-3 sm:gap-4 pt-4 justify-center md:justify-start">
               <a
@@ -146,9 +146,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-400 text-xs sm:text-sm text-center md:text-left">
-            © {new Date().getFullYear()} Imran Umar. All rights reserved. Made
-            with <FaHeart className="inline text-red-500 animate-pulse" /> and
-            React
+            © {new Date().getFullYear()} Imran Umar. All rights reserved.
           </p>
 
           <button

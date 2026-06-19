@@ -68,9 +68,9 @@ const Hero = () => {
                 data-aos-delay="300"
                 className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0"
               >
-                Crafting scalable, real-world interfaces with{" "}
-                <span className="font-semibold text-gray-900">React</span>, &
-                the <span className="font-semibold text-gray-900">Next.js</span>
+                Building scalable, responsive and production-ready interfaces
+                with <span className="font-semibold text-gray-900">React.js</span>{" "}
+                and <span className="font-semibold text-gray-900">Next.js</span>.
               </p>
             </div>
 
@@ -84,19 +84,23 @@ const Hero = () => {
                 <h3 className="text-2xl sm:text-3xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-1">
                   1+
                 </h3>
-                <p className="text-xs text-gray-600 font-semibold">Years Exp</p>
+                <p className="text-xs text-gray-600 font-semibold">
+                  Years Experience
+                </p>
                 <div className="mt-2 h-1 w-0 group-hover:w-full bg-gradient-to-r from-blue-600 to-purple-600 rounded-full transition-all duration-300"></div>
               </div>
               <div className="group bg-white/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 sm:p-5 shadow-lg border border-gray-200/50 hover:shadow-2xl hover:border-purple-300 transition-all duration-300 hover:-translate-y-1">
                 <h3 className="text-2xl sm:text-3xl font-black bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-1">
                   Frontend
                 </h3>
-                <p className="text-xs text-gray-600 font-semibold">Modules</p>
+                <p className="text-xs text-gray-600 font-semibold">
+                  Development
+                </p>
                 <div className="mt-2 h-1 w-0 group-hover:w-full bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transition-all duration-300"></div>
               </div>
               <div className="group bg-white/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 sm:p-5 shadow-lg border border-gray-200/50 hover:shadow-2xl hover:border-pink-300 transition-all duration-300 hover:-translate-y-1 col-span-2 sm:col-span-1">
                 <h3 className="text-2xl sm:text-3xl font-black bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-1">
-                  UI & API
+                  REST API
                 </h3>
                 <p className="text-xs text-gray-600 font-semibold">
                   Integration
@@ -184,7 +188,7 @@ const Hero = () => {
                 <div className="bg-white rounded-xl sm:rounded-[22px] p-2 sm:p-3">
                   <img
                     src="https://i.postimg.cc/59DPp1fC/new.png"
-                    alt="Imran Umar - Senior Software Engineer"
+                    alt="Imran Umar - Frontend Developer"
                     className="w-full h-auto rounded-xl sm:rounded-2xl object-cover"
                   />
                 </div>
